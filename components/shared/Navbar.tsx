@@ -3,7 +3,7 @@ import Image from "next/image";
 import "./Navbar.css";
 const Navbar = () => {
   return (
-    <div className=" w-full py-8 px-6  flex items-center justify-between nav ">
+    <div className=" w-full py-8 px-6  flex items-center justify-between ">
       <Image src="/images/logo.png" alt="Hero Image" width={120} height={120} />
       <div className="flex gap-6">
         <a href="#" className="text-primary2 font-semibold">
