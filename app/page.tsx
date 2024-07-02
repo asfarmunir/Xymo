@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Hero from "@/components/shared/Hero";
 import Navbar from "@/components/shared/Navbar";
+import { Testimonials } from "@/components/shared/Testimonials";
 
 export default function Home() {
   return (
@@ -151,7 +152,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className=" w-full flex flex-col items-center justify-center bg-gradient-to-r from-primary-50 to-primary-100 px-8 my-12 py-24">
+      <div className=" w-full flex flex-col items-center justify-center bg-gradient-to-r from-primary-50 to-primary-100 px-8 mt-12 py-24">
         <h2 className=" text-2xl  font-semibold md:text-5xl text-white text-center">
           Why Businesses Choose <span className=" text-cyan-300">Xymo</span>
         </h2>
@@ -160,7 +161,7 @@ export default function Home() {
           insights. You don’t need to install a whole new system across your
           business.
         </p>
-        <div className="flex flex-col md:flex-row items-center justify-around w-full mt-8 md:mt-12">
+        <div className="flex flex-col lg:flex-row items-center justify-around w-full mt-8 md:mt-12">
           <div>
             <Image src="/images/comp.png" alt="icon" width={500} height={500} />
           </div>
@@ -238,6 +239,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Testimonials />
       <div className=" w-full flex flex-col items-center justify-center py-12 pb-24">
         <h2 className=" text-white text-5xl text-center font-semibold mb-7">
           Turn Data into insights

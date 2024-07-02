@@ -79,7 +79,6 @@ const config = {
         },
       },
       fontFamily: {
-        poppins: ["var(--font-poppins)"],
         oxanium: ["var(--font-oxanium)"],
       },
       backgroundImage: {
@@ -124,7 +123,7 @@ const config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 } satisfies Config
 
 export default config
