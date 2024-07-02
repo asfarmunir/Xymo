@@ -20,13 +20,14 @@ const config = {
       colors: {
         primary: {
           500: "#624CF5",
-          50: " #F6F8FD",
-          100: "#2952e5",
+          50: " #68136E",
+          100: "#230E2C",
           DEFAULT: "#150D1F",
           foreground: "hsl(var(--primary-foreground))",
         },
         primary2: {
           DEFAULT:"#AD1AAF",
+          50:"#E71CE8",
         },
         coral: {
           500: "#15BF59",
