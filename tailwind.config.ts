@@ -28,6 +28,8 @@ const config = {
         primary2: {
           DEFAULT:"#AD1AAF",
           50:"#E71CE8",
+          100:"#05778D",
+          200:"#10394D",
         },
         coral: {
           500: "#15BF59",

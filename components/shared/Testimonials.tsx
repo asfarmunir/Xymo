@@ -53,7 +53,10 @@ export function Testimonials() {
 
       <div className=" mt-12 flex items-center gap-2">
         {Array.from({ length: 5 }).map((_, index) => (
-          <p className="bg-pink-300/80 p-1.5 px-1.5 rounded-full"></p>
+          <p
+            key={index}
+            className="bg-pink-300/80 p-1.5 px-1.5 rounded-full"
+          ></p>
         ))}
       </div>
     </div>

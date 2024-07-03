@@ -85,6 +85,11 @@ body {
         radial-gradient(at 100% 45%, rgb(13, 30, 79) 0, transparent 0%);
 }
 
+.oyo2 {
+  background-image:
+    radial-gradient(circle at 5% 25%, rgb(109, 25, 118) 0, transparent 18%),
+    radial-gradient(at 100% 25%, rgb(101, 22, 109) 0, transparent 18%);
+}
 
 .filter-grey {
   filter: brightness(0) saturate(100%) invert(47%) sepia(0%) saturate(217%) hue-rotate(32deg) brightness(98%) contrast(92%);
