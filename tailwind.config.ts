@@ -22,6 +22,7 @@ const config = {
           500: "#624CF5",
           50: " #68136E",
           100: "#230E2C",
+          200: '#470257',
           DEFAULT: "#150D1F",
           foreground: "hsl(var(--primary-foreground))",
         },

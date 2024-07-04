@@ -228,6 +228,157 @@ const Page = () => {
         height={1300}
         alt="milkyway"
       />
+      <div className="flex w-full flex-col items-center justify-center py-12 px-8 lg:px-16">
+        <h1 className="font-semibold text-5xl text-white">
+          The <span className="text-primary2-50">Team</span>
+        </h1>
+        <div className="flex items-center justify-center gap-8 flex-wrap mt-16  mb-8">
+          <div className="relative overflow-hidden flex flex-col items-center justify-center bg-gradient-to-tr from-primary-50/70 to-primary-200/30 px-14 py-16 rounded-[60px]">
+            <Image
+              src="/images/team1.svg"
+              alt="team"
+              width={180}
+              height={180}
+            />
+            <Image
+              src="/images/ellips.svg"
+              alt="team"
+              width={200}
+              className=" absolute -top-2 right-0 -z-20 "
+              height={200}
+            />
+            <h2 className="text-white text-2xl font-semibold mt-4">
+              Armanda Fisher
+            </h2>
+            <p className="text-white text-lg mb-4 font-thin">CEO</p>
+            <p className="text-white  font-thin max-w-xs text-center text-sm">
+              iure facilis, nesciunt incidunt autem ab accusamus quidem
+            </p>
+            <div className="inline-flex items-center mt-6 gap-2">
+              <Image
+                src="/images/tweeter.svg"
+                alt="twitter"
+                width={40}
+                height={40}
+              />
+              <Image
+                src="/images/tiktok.svg"
+                alt="twitter"
+                width={40}
+                height={40}
+              />
+              <Image
+                src="/images/mail.svg"
+                alt="twitter"
+                width={40}
+                height={40}
+              />
+              <Image
+                src="/images/linkedin.svg"
+                alt="twitter"
+                width={40}
+                height={40}
+              />
+            </div>
+          </div>
+          <div className="relative overflow-hidden flex flex-col items-center justify-center bg-gradient-to-tr from-primary-50/70 to-primary-200/30 px-14 py-16 rounded-[60px]">
+            <Image
+              src="/images/team2.svg"
+              alt="team"
+              width={180}
+              height={180}
+            />
+            <Image
+              src="/images/ellips.svg"
+              alt="team"
+              width={200}
+              className=" absolute -top-2 right-0 -z-20 "
+              height={200}
+            />
+            <h2 className="text-white text-2xl font-semibold mt-4">
+              Jordi Fisher
+            </h2>
+            <p className="text-white text-lg mb-4 font-thin">CTO</p>
+            <p className="text-white  font-thin max-w-xs text-center text-sm">
+              iure facilis, nesciunt incidunt autem ab accusamus quidem
+            </p>
+            <div className="inline-flex items-center mt-6 gap-2">
+              <Image
+                src="/images/tweeter.svg"
+                alt="twitter"
+                width={40}
+                height={40}
+              />
+              <Image
+                src="/images/tiktok.svg"
+                alt="twitter"
+                width={40}
+                height={40}
+              />
+              <Image
+                src="/images/mail.svg"
+                alt="twitter"
+                width={40}
+                height={40}
+              />
+              <Image
+                src="/images/linkedin.svg"
+                alt="twitter"
+                width={40}
+                height={40}
+              />
+            </div>
+          </div>
+          <div className="relative overflow-hidden flex flex-col items-center justify-center bg-gradient-to-tr from-primary-50/70 to-primary-200/30 px-14 py-16 rounded-[60px]">
+            <Image
+              src="/images/team3.svg"
+              alt="team"
+              width={215}
+              height={215}
+            />
+            <Image
+              src="/images/ellips.svg"
+              alt="team"
+              width={200}
+              className=" absolute -top-2 right-0 -z-20 "
+              height={200}
+            />
+            <h2 className="text-white text-2xl font-semibold mt-4">
+              Kate Fisher
+            </h2>
+            <p className="text-white text-lg mb-4 font-thin">CGO</p>
+            <p className="text-white  font-thin max-w-xs text-center text-sm">
+              iure facilis, nesciunt incidunt autem ab accusamus quidem
+            </p>
+            <div className="inline-flex items-center mt-6 gap-2">
+              <Image
+                src="/images/tweeter.svg"
+                alt="twitter"
+                width={40}
+                height={40}
+              />
+              <Image
+                src="/images/tiktok.svg"
+                alt="twitter"
+                width={40}
+                height={40}
+              />
+              <Image
+                src="/images/mail.svg"
+                alt="twitter"
+                width={40}
+                height={40}
+              />
+              <Image
+                src="/images/linkedin.svg"
+                alt="twitter"
+                width={40}
+                height={40}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="flex flex-col md:flex-row gap-8 items-center px-8 md:px-24 justify-around w-full my-24">
         <div className="flex flex-col items-center md:items-start justify-start gap-3">
           <h1 className=" text-4xl  md:text-5xl font-semibold text-center md:text-start leading-snug text-white max-w-lg mb-2">
