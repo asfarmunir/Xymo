@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="flex  flex-col w-full min-h-screen px-8   items-center justify-center">
       <div className="flex flex-col items-center justify-center pt-24 md:pt-64 mb-14 md:mb-52 ">
-        <h2 className=" text-5xl md:text-6xl max-w-2xl font-semibold leading-loose tracking-wide text-center mb-4 text-white">
+        <h2 className=" text-5xl md:text-6xl max-w-2xl font-semibold leading-snug md:leading-loose tracking-wide text-center mb-4 text-white">
           At Xymo, We Turn Your Data Into Decisions.{" "}
         </h2>
         <p className=" text-slate-300 font-light tracking-wide mb-8 max-w-xl text-center">

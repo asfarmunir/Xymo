@@ -14,7 +14,7 @@ export default function Home() {
         height={1350}
         className=" absolute top-52 md:-top-1 left-50 z-0 opacity-75"
       />
-      <div className=" w-full flex justify-center  sticky top-10 z-50">
+      <div className=" w-full flex justify-center  sticky top-10 z-20">
         <Navbar />
       </div>
       <Hero />

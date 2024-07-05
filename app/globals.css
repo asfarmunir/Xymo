@@ -88,7 +88,6 @@ body {
     background-image:
         radial-gradient(circle at 10% 5%, rgb(79, 17, 86) 0, transparent 22%),
         radial-gradient(at 100% 45%, rgb(13, 30, 79) 0, transparent 0%);
-        z-index: 99;
         position: relative;
 }
 
