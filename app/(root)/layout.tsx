@@ -7,8 +7,9 @@ import Footer from "@/components/shared/Footer";
 export default function RootLayout({ children }) {
   return (
     <main className="oyo3 relative flex min-h-screen flex-col bg-primary items-center justify-between pt-16">
-      <Navbar />
-
+      <div className=" w-full flex justify-center  sticky top-10 z-50">
+        <Navbar />
+      </div>
       {children}
       <Footer />
     </main>

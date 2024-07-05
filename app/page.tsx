@@ -6,7 +6,7 @@ import Footer from "@/components/shared/Footer";
 
 export default function Home() {
   return (
-    <main className="oyo relative flex min-h-screen flex-col bg-primary items-center justify-between pt-16">
+    <main className="oyo relative flex min-h-screen flex-col bg-primary  items-center justify-between pt-16">
       <Image
         src="/images/bg_design.svg"
         alt="Hero Image"
@@ -14,7 +14,9 @@ export default function Home() {
         height={1350}
         className=" absolute top-52 md:-top-1 left-50 z-0 opacity-75"
       />
-      <Navbar />
+      <div className=" w-full flex justify-center  sticky top-10 z-50">
+        <Navbar />
+      </div>
       <Hero />
       <Image
         src="/images/milkyway.svg"

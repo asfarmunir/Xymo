@@ -40,6 +40,7 @@ export default function RootLayout({
           speed={200}
           shadow="0 0 5px #2299DD,0 0 5px #2299DD"
         /> */}
+
         {children}
         {/* <Toaster position="top-center" /> */}
       </body>
